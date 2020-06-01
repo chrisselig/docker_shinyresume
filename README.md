@@ -10,8 +10,4 @@ Installs the following packages:
 4. shinyjs
 5. plotly
 6. ggthemes
-7. viridis
-8. patchwork
-9. hrbrthemes
-10. fmsb
-11. colormap
+7. fmsb
