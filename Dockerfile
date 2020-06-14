@@ -13,10 +13,20 @@ RUN apt-get update -qq \
         libgdal-dev \
         libgeos-dev \
         libproj-dev \
+        libcurl4-openssl-dev \
+        curl \
+        libssl-dev \
+    
     && install2.r --error --deps TRUE \
         shinyWidgets \
         shinythemes \
         shinyjs \
         plotly \
         ggthemes \
-        fmsb
+        fmsb \
+        quantmod \
+        tibbletime \
+        lubridate \
+        scales \
+        e1071 \
+        ggsci
